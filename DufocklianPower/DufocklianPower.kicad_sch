@@ -6266,6 +6266,16 @@
 		)
 		(uuid "c879b649-07ff-4b87-a48b-c56cc85fc2e6")
 	)
+	(text "BUCK BOOST CONTROLLER"
+		(exclude_from_sim no)
+		(at 173.228 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ccd7375a-6a6e-4304-93b1-da34285b8d32")
+	)
 	(text "**SEE SNVAA85"
 		(exclude_from_sim no)
 		(at 56.642 172.212 0)
