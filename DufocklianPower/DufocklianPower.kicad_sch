@@ -24292,9 +24292,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IND_BOURNS_SRR1260"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx"
 			(at 59.69 55.88 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
