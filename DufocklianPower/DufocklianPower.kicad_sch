@@ -254,258 +254,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:OPA188xxD"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "OPA188xxD"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at -2.54 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa188.pdf"
-				(at 3.81 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Precision, Low-Noise, Rail-to-Rail Output, 36-V, Zero-Drift Operational Amplifier, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "single opamp zero-drift"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA188xxD_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "OPA188xxD_1_1"
-				(pin no_connect line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 2.54 270)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Analog_ADC:ADS8681RUM"
 			(pin_names
 				(offset 0.762)
@@ -916,6 +664,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Comparator:TLV3501AID"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 3.81 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV3501AID"
+				(at 3.81 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3501.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Speed Comparator, 4.5-ns, Rail-to-Rail, Push-Pull CMOS Output, SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single comparator high speed cmos"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm?P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV3501AID_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 5.08 180)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -5.08 180)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1179,7 +1175,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1199,8 +1195,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1231,7 +1227,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1264,10 +1260,10 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1290,31 +1286,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
 					(stroke
 						(width 0.1524)
@@ -1335,17 +1307,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -1357,24 +1318,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8080,6 +8023,12 @@
 		(uuid "03c9ace3-19bc-43de-9cd8-73dc85062bbe")
 	)
 	(junction
+		(at 238.76 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05aa21b6-37c7-455d-8d96-5cf1ca144215")
+	)
+	(junction
 		(at 115.57 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8128,6 +8077,12 @@
 		(uuid "20fdb6df-1f52-401d-b7d2-b3a90586611b")
 	)
 	(junction
+		(at 276.86 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2768dcba-4d01-4b5b-b526-32cc56464d5e")
+	)
+	(junction
 		(at 58.42 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8174,12 +8129,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41beb675-ebc1-45d7-9a88-8eee6dd7fc4e")
-	)
-	(junction
-		(at 276.86 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "442ce1de-20ac-45b4-82b5-d0e6ff5f5ba0")
 	)
 	(junction
 		(at 237.49 96.52)
@@ -8234,6 +8183,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58ad31a2-0ad2-406d-9c24-04f668bb6bb6")
+	)
+	(junction
+		(at 271.78 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b41c36a-c14f-4b18-bf80-cc1e7e2a16fa")
 	)
 	(junction
 		(at 248.92 44.45)
@@ -8300,12 +8255,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f9cae5d-ebb6-48bc-9eb9-8c8afddbb238")
-	)
-	(junction
-		(at 270.51 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fd19aea-fad4-44f0-b992-2bf28223a8d6")
 	)
 	(junction
 		(at 176.53 17.78)
@@ -8408,6 +8357,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74acbd8-3938-4318-9dba-22052e51ca1e")
+	)
+	(junction
+		(at 245.11 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7cb7418-e416-4ac9-b5d0-9455a7313c0a")
 	)
 	(junction
 		(at 16.51 60.96)
@@ -8522,12 +8477,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f73538de-4d20-4ef0-ae7c-6c83acfd91f4")
-	)
-	(junction
-		(at 238.76 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb504df6-d3b7-45d0-84f4-5486dd4e1458")
 	)
 	(junction
 		(at 264.16 44.45)
@@ -8913,7 +8862,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 44.45) (xy 270.51 44.45)
+			(xy 264.16 44.45) (xy 271.78 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9033,7 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 44.45) (xy 283.21 44.45)
+			(xy 276.86 44.45) (xy 284.48 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9633,7 +9582,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 52.07) (xy 270.51 53.34)
+			(xy 271.78 52.07) (xy 271.78 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9650,6 +9599,16 @@
 			(type default)
 		)
 		(uuid "4ab41ba4-729e-424d-a813-88e88f2f0d23")
+	)
+	(wire
+		(pts
+			(xy 246.38 125.73) (xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6ff8cc-91e8-4e9b-8ea8-0d5b2731c701")
 	)
 	(wire
 		(pts
@@ -9680,6 +9639,16 @@
 			(type default)
 		)
 		(uuid "4d002544-f7b2-4ef9-9522-bda7603b28b0")
+	)
+	(wire
+		(pts
+			(xy 243.84 125.73) (xy 245.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d21369c-4467-4fc0-97d1-0c67e0792dd8")
 	)
 	(wire
 		(pts
@@ -10123,6 +10092,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 127) (xy 245.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6725f26a-7d1a-4782-9d83-f2bc74628056")
+	)
+	(wire
+		(pts
 			(xy 43.18 161.29) (xy 55.88 161.29)
 		)
 		(stroke
@@ -10140,6 +10119,16 @@
 			(type default)
 		)
 		(uuid "680d3595-e39b-4baf-8ca7-c59a36b1a05f")
+	)
+	(wire
+		(pts
+			(xy 245.11 125.73) (xy 246.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684f24ba-29d5-4527-aac0-72e4d3ecc196")
 	)
 	(wire
 		(pts
@@ -10190,6 +10179,16 @@
 			(type default)
 		)
 		(uuid "6aafc16e-9e00-40a4-846a-2e5338c9a713")
+	)
+	(wire
+		(pts
+			(xy 243.84 125.73) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf77723-e72a-49cc-a673-054face2509d")
 	)
 	(wire
 		(pts
@@ -10430,6 +10429,16 @@
 			(type default)
 		)
 		(uuid "7dcb1a81-6af6-44b7-bea3-7c2db90e3d16")
+	)
+	(wire
+		(pts
+			(xy 271.78 44.45) (xy 276.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd6c9cc-916c-4f86-9cb5-ff2e93c44831")
 	)
 	(wire
 		(pts
@@ -11413,16 +11422,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 44.45) (xy 276.86 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc81d3a2-e627-4dda-a519-ff1b178b81aa")
-	)
-	(wire
-		(pts
 			(xy 111.76 147.32) (xy 115.57 147.32)
 		)
 		(stroke
@@ -12292,7 +12291,7 @@
 		(uuid "6a7c04de-c17f-4ea8-bb64-89f2dcf1b8d0")
 	)
 	(label "VOUT_{0}"
-		(at 283.21 44.45 180)
+		(at 284.48 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15732,7 +15731,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "39163c7e-4257-4caa-8b21-2dbae7028263")
 		(property "Reference" "C24"
 			(at 277.114 46.228 0)
@@ -15756,7 +15755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 277.8252 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17062,6 +17061,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:TLV3501AID")
+		(at 246.38 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5291db07-024b-434f-b9c4-5693e3a77e8d")
+		(property "Reference" "U10"
+			(at 257.81 110.4198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV3501AID"
+			(at 257.81 112.9598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 246.38 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3501.pdf"
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed Comparator, 4.5-ns, Rail-to-Rail, Push-Pull CMOS Output, SOIC-8"
+			(at 246.38 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ac4a6589-57c8-44ce-90ae-ea9d5ffb0ba2")
+		)
+		(pin "1"
+			(uuid "109d0c92-7b3c-4c89-b283-f8dd1c9955d3")
+		)
+		(pin "3"
+			(uuid "fc4cb1e4-97fb-406e-b218-5f17597742ff")
+		)
+		(pin "2"
+			(uuid "e1b1f09a-67e9-4268-87b9-d6c57961b8cf")
+		)
+		(pin "5"
+			(uuid "06f984a6-9ee4-41f6-9811-f09daea4a5ce")
+		)
+		(pin "8"
+			(uuid "acad1e2a-1890-4f8a-826a-87586938fa60")
+		)
+		(pin "7"
+			(uuid "839d1981-0a27-4baa-b939-387944a798fd")
+		)
+		(pin "6"
+			(uuid "8eb6b004-9940-431a-a5c1-0e7ec7fd78f3")
+		)
+		(instances
+			(project "DufocklianPower"
+				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 218.44 64.77 0)
 		(unit 1)
@@ -17392,7 +17489,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5935bda5-0867-4261-98ca-37e19b736eb6")
 		(property "Reference" "C21"
 			(at 258.064 46.228 0)
@@ -17416,7 +17513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
 			(at 258.7752 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17858,6 +17955,86 @@
 			(project "DufocklianPower"
 				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 73.66 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609aa210-28c1-464e-a64f-646394402bed")
+		(property "Reference" "J7"
+			(at 76.2 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 76.2 40.6399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350Y_S16N-PC_Horizontal"
+			(at 73.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7594ff09-5390-42cc-808e-fe174a2a98af")
+		)
+		(instances
+			(project "DufocklianPower"
+				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -19409,7 +19586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
 			(at 265.1252 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19895,7 +20072,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 243.84 124.46 0)
+		(at 245.11 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19906,7 +20083,7 @@
 		(fields_autoplaced yes)
 		(uuid "86a0223d-72fb-4854-bdce-15b3c04940f7")
 		(property "Reference" "#PWR055"
-			(at 243.84 130.81 0)
+			(at 245.11 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19917,7 +20094,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 243.84 129.54 0)
+			(at 245.11 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19928,7 +20105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 124.46 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19939,7 +20116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 124.46 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19950,7 +20127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 243.84 124.46 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20447,88 +20624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 73.66 39.37 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90f8e499-31a4-4a91-b337-e7fe6d41b840")
-		(property "Reference" "J5"
-			(at 76.2 39.3701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUT"
-			(at 76.2 36.8301 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 73.66 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5d759682-be31-4d53-bc60-fadf53552f1f")
-		)
-		(pin "1"
-			(uuid "6d739c76-5893-43f7-bf0a-382f31cf3a74")
-		)
-		(instances
-			(project "DufocklianPower"
-				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 223.52 40.64 0)
 		(unit 1)
@@ -20969,105 +21064,6 @@
 			(project "DufocklianPower"
 				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA188xxD")
-		(at 246.38 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a06e86f5-ceac-420a-bbe1-8a76d8e79865")
-		(property "Reference" "U7"
-			(at 257.81 110.4198 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA188xxD"
-			(at 257.81 112.9598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 243.84 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa188.pdf"
-			(at 250.19 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Precision, Low-Noise, Rail-to-Rail Output, 36-V, Zero-Drift Operational Amplifier, SOIC-8"
-			(at 246.38 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "247c907e-a0c0-4998-9c56-60019b608ec8")
-		)
-		(pin "1"
-			(uuid "11279083-512c-4c2d-9fd8-fd8dad441444")
-		)
-		(pin "2"
-			(uuid "54e4bc51-55b3-4946-931a-f65b6778bf7f")
-		)
-		(pin "5"
-			(uuid "4e2abf91-29ba-4a9a-b002-0404de9cff80")
-		)
-		(pin "6"
-			(uuid "d6cd0214-3582-4c2a-89a1-717487bca195")
-		)
-		(pin "4"
-			(uuid "2980936e-70de-479d-a2fc-39f07108454d")
-		)
-		(pin "7"
-			(uuid "a2e4f6bc-cb85-45ae-8d92-84cb8d43806b")
-		)
-		(pin "8"
-			(uuid "b7e6620f-a6cc-4522-b48d-64304b5d08ad")
-		)
-		(instances
-			(project "DufocklianPower"
-				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -22442,7 +22438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 62.23 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -23288,6 +23284,84 @@
 			(project "DufocklianPower"
 				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 73.66 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dab34e66-b151-4062-a628-d92acf4eb59b")
+		(property "Reference" "J6"
+			(at 76.2 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vout"
+			(at 71.882 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350Y_S16N-PC_Horizontal"
+			(at 73.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6b90b66-ebf8-48ff-bc29-7b848fd08c59")
+		)
+		(instances
+			(project "DufocklianPower"
+				(path "/dfcb0a53-d7d6-48e9-a547-dea7effd1b98"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -24503,17 +24577,17 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 270.51 48.26 0)
+		(at 271.78 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ebd40368-44db-4a09-9f86-d67ae148444f")
 		(property "Reference" "C23"
-			(at 270.764 46.228 0)
+			(at 272.034 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24524,7 +24598,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 270.764 50.546 0)
+			(at 272.034 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24534,8 +24608,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 271.4752 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
+			(at 272.7452 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24546,7 +24620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 48.26 0)
+			(at 271.78 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24557,7 +24631,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 270.51 48.26 0)
+			(at 271.78 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25139,7 +25213,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 270.51 53.34 0)
+		(at 271.78 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25150,7 +25224,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3bcdb28-0b7c-4e80-932f-7e275d88fa02")
 		(property "Reference" "#PWR032"
-			(at 270.51 59.69 0)
+			(at 271.78 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25161,7 +25235,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 270.51 58.42 0)
+			(at 271.78 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25172,7 +25246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 53.34 0)
+			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25183,7 +25257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 53.34 0)
+			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25194,7 +25268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 270.51 53.34 0)
+			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
